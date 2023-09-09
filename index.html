@@ -9,9 +9,9 @@
 </head>
 <body class="overflow-x-hidden">
     <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg bg-warning sticky-top">
+    <nav class="navbar navbar-expand-lg bg-warning opacity-75 sticky-top">
         <div class="container-fluid gap-5">
-          <a class="navbar-brand text-white fs-3 text" href="#">Cafeteria</a>
+          <a class="navbar-brand text-white fs-3 text" href="index.html">Cafeteria</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,18 +21,25 @@
                 <a class="nav-link active text-white fs-5" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white fs-5 text" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Productos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Fritos</a></li>
-                  <li><a class="dropdown-item" href="#">Mekatos</a></li>
-                  <li><a class="dropdown-item" href="#">Bebidas</a></li>
-                  <li><a class="dropdown-item" href="#">Dulces</a></li>
-                  <li><a class="dropdown-item" href="#">Lacteos</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Otros</a></li>
+                  <li><a class="dropdown-item" href="#aguas">Agua</a></li>
+                  <li><a class="dropdown-item" href="#dulces">Dulces</a></li>
+                  <li><a class="dropdown-item" href="#fritos">Fritos</a></li>
+                  <li><a class="dropdown-item" href="#gaseosas">Gaseosas</a></li>
+                  <li><a class="dropdown-item" href="#mekatos">Mekatos</a></li>
+                  <li><a class="dropdown-item" href="#cultivos">Cultivos</a></li>
+                  <li><a class="dropdown-item" href="#lacteos">Lacteos</a></li>
+                  <li><a class="dropdown-item" href="#pescados">Pescados</a></li>
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white fs-5" aria-current="page" href="#quienes-somos">Quienes somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white fs-5" aria-current="page" href="#formulario">Formulario</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -75,140 +82,470 @@
         </div>
       </div>
       <!-- fin del carrusel  -->
+      <div class="p-5">
 
-      <!-- inicio de card con 3 imagenes -->
-        <div class="row p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
-          <div class="card p-3" style="width: 21rem;">
-            <div class="col">
-              <img src="img/img-card-1.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-5 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 26rem;">
-            <div class="col">
-              <img src="img/img-card-2.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-2 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 25rem;">
-            <div class="col">
-              <img src="img/img-card-3.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-4 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 22rem;">
-            <div class="col">
-              <img src="img/img-card-4.jpg" class="card-img-top rounded w-100" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-4 mx-auto">Ir alla</a>
-            </div>
-          </div>
-        </div>
-        <div class="row p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
-          <div class="card p-3" style="width: 21rem;">
-            <div class="col">
-              <img src="img/img-card-1.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-5 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 26rem;">
-            <div class="col">
-              <img src="img/img-card-2.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-2 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 25rem;">
-            <div class="col">
-              <img src="img/img-card-3.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-4 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 22rem;">
-            <div class="col">
-              <img src="img/img-card-4.jpg" class="card-img-top rounded w-100" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-4 mx-auto">Ir alla</a>
-            </div>
-          </div>
-        </div>
-        <div class="row p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
-          <div class="card p-3" style="width: 21rem;">
-            <div class="col">
-              <img src="img/img-card-1.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-5 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 26rem;">
-            <div class="col">
-              <img src="img/img-card-2.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-2 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 25rem;">
-            <div class="col">
-              <img src="img/img-card-3.jpg" class="card-img-top rounded" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-4 mx-auto">Ir alla</a>
-            </div>
-          </div>
-          <div class="card p-3" style="width: 22rem;">
-            <div class="col">
-              <img src="img/img-card-4.jpg" class="card-img-top rounded w-100" alt="...">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning d-grid col-6 mt-4 mx-auto">Ir alla</a>
-            </div>
-          </div>
-        </div>
-      <!-- fin de card con 3 imagenes -->
+        <!-- inicio de cards con productos -->
+        <span class="mt-5" id="productos"></span>
+
+        <!-- aguas  -->
       
+        <div class="p-1" id="aguas">
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center" >
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/agua-cristal-pequeña.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Agua cristal pequeña</h5>
+                <p class="card-text text-center">$700</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/agua-cristal-grande.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Agua cristal grande</h5>
+                <p class="card-text text-center">$1500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin aguas  -->
+        <!-- dulces  -->
+        <div class="p-1" id="dulces">
+          
+        <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center" >
+          <div class="card p-3" style="width: 21rem;">
+            <div class="col">
+              <img src="img/bombombum.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Bombombum</h5>
+              <p class="card-text text-center">$500</p>
+            </div>
+          </div>
+          <div class="card p-3" style="width: 21rem;">
+            <div class="col">
+              <img src="img/craqueñas.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Galletas craqueñas</h5>
+              <p class="card-text text-center">$1500</p>
+            </div>
+          </div>
+          <div class="card p-3" style="width: 21rem;">
+            <div class="col">
+              <img src="img/galletas-festival.webp" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Galletas festival pequeñas</h5>
+              <p class="card-text text-center">$500</p>
+            </div>
+          </div>
+          <div class="card p-3" style="width: 26rem;">
+            <div class="col">
+              <img src="img/galleta-mamut.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Galleta mamut</h5>
+              <p class="card-text text-center">$800</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+          <div class="card p-3" style="width: 21rem;">
+            <div class="col">
+              <img src="img/Mani-Confitado.webp" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Mani confitado</h5>
+              <p class="card-text text-center">$2000</p>
+            </div>
+          </div>
+          <div class="card p-3" style="width: 26rem;">
+            <div class="col">
+              <img src="img/trio-superbombom supercoco.webp" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Supercoco bombombun</h5>
+              <p class="card-text text-center">$800</p>
+            </div>
+          </div>
+          <div class="card p-3" style="width: 25rem;">
+            <div class="col">
+              <img src="img/dulcecitos.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Confites</h5>
+              <p class="card-text text-center">$200</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <!-- fin dulces  -->
+        <!-- fritos  -->
+
+        <div class="p-1" id="fritos">
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/patacon.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Patacon relleno</h5>
+                <p class="card-text text-center">$2500</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/papa-rellena.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Papa rellena</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 25rem;">
+              <div class="col">
+                <img src="img/empanada.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Empanada</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/deditos.jpg" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Deditos</h5>
+                <p class="card-text text-center">$2500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin fritos  -->
+        <!-- inicio gaseosas  -->
+
+        <div class="p-1" id="gaseosas">
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/gaseosa-personal.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Gaseosa personal</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/gaseosa-1.5.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Gaseosa 1.5</h5>
+                <p class="card-text text-center">$5000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 25rem;">
+              <div class="col">
+                <img src="img/gaseosa-ecolitro.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Gaseosa ecolitro</h5>
+                <p class="card-text text-center">$3500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin gaseosas  -->
+        <!-- mekatos  -->
+
+        <div class="p-1" id="mekatos">
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/doritos.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Doritos</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/choclitos.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Choclitos</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 25rem;">
+              <div class="col">
+                <img src="img/chitos.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Chitos</h5>
+                <p class="card-text text-center">$1500</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/boliqueso.png" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Boliqueso</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+          </div>
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/rizadas.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Rizadas</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/golpe.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Golpes</h5>
+                <p class="card-text text-center">$2500</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 25rem;">
+              <div class="col">
+                <img src="img/detoditos.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Detoditos</h5>
+                <p class="card-text text-center">$2500</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/platanitos.webp" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Platanitos</h5>
+                <p class="card-text text-center">$2500</p>
+              </div>
+            </div>
+          </div>
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/manimoto.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Manimoto</h5>
+                <p class="card-text text-center">$1500</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/tostinachos.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Tostinachos</h5>
+                <p class="card-text text-center">$1500</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 25rem;">
+              <div class="col">
+                <img src="img/cheetos.png" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Cheetos</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/takis.jpg" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Takis</h5>
+                <p class="card-text text-center">$2500</p>
+              </div>
+            </div>
+          </div>  
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/palomitas.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Palomitas</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/tocinetas.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Tocinetas</h5>
+                <p class="card-text text-center">$2000</p>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <!-- fin mekatos  -->
+        <!-- inicio cultivos -->
+
+        <div class="p-1" id="cultivos">
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/limones.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Limones</h5>
+                <p class="card-text text-center">$3000 = 1kg</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/melon.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Melon</h5>
+                <p class="card-text text-center">$3000 = 1kg</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 25rem;">
+              <div class="col">
+                <img src="img/yuca.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Yuca</h5>
+                <p class="card-text text-center">$3200 = 1kg</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/jugos naturales.jpg" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Jugo natural 7onz</h5>
+                <p class="card-text text-center">$1000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/jugos naturales.jpg" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Jugo natural 8onz</h5>
+                <p class="card-text text-center">$1500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin cultivos  -->
+        <!-- inicio lacteos  -->
+
+        <div class="p-1" id="lacteos">
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center">
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/leche.webp" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Leche</h5>
+                <p class="card-text text-center">$1800 = 1lt</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/queso.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Queso</h5>
+                <p class="card-text text-center">$17000 = 1kg</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 25rem;">
+              <div class="col">
+                <img src="img/suero.jpg" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Suero</h5>
+                <p class="card-text text-center">$5000</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/yogurt.jpg" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Yogurt</h5>
+                <p class="card-text text-center">$1500</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 22rem;">
+              <div class="col">
+                <img src="img/bolis.jpg" class="card-img-top rounded w-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Bolis</h5>
+                <p class="card-text text-center">$1000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin lacteos  -->
+        <!-- inicio pescados  -->
+
+        <div class="p-1" id="pescados">
+          <div class="row-col p-4 gap-5 m-5 d-flex justify-content-center align-items-center" >
+            <div class="card p-3" style="width: 21rem;">
+              <div class="col">
+                <img src="img/tilapia-roja.png" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Tilapia roja</h5>
+                <p class="card-text text-center">$12000 = 1kg</p>
+              </div>
+            </div>
+            <div class="card p-3" style="width: 26rem;">
+              <div class="col">
+                <img src="img/tilapia-plateada.png" class="card-img-top rounded" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Tilapia plateada</h5>
+                <p class="card-text text-center">$12000 = 1kg</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin pescados  -->
+        <!-- fin de cards con productos -->
+      </div>
       <!-- inicio container con informacion -->
+        <span id="quienes-somos"></span>
         <div class="row d-flex w-75 container m-auto gap-5 p-5 d-flex align-items-center">
           <div class="col mt-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eius deserunt distinctio nesciunt illo provident aut mollitia placeat, laboriosam aspernatur rem quibusdam officia quae quis aliquam impedit minima quia inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius eum maxime numquam culpa veniam tempore molestiae, illum dolore libero? Totam voluptatum corrupti ducimus perferendis inventore neque cumque recusandae nobis aliquid? Lorem ipsum dolor..</p>
+            <h3><b>Quiénes Somos y Nuestro Propósito</b></h3>
+            <p>La cafetería del Servicio Nacional de Aprendizaje (SENA) en el Centro Biotecnológico del Caribe es un espacio emblemático que combina la pasión por la gastronomía con la misión educativa del SENA. Nos enorgullece ser parte de esta institución líder en formación técnica y tecnológica en Colombia, y estamos comprometidos con brindar a nuestros estudiantes, profesores y visitantes una experiencia culinaria excepcional.</p>
           </div>
           <div class="col">
             <img src="img/info-img.jpg" class="card-img-top container rounded w-75" alt="">
@@ -229,10 +566,6 @@
               <li class="list-group-item">A second item</li>
               <li class="list-group-item">A third item</li>
             </ul>
-            <div class="card-body">
-              <a href="#" class="card-link text-warning">Card link</a>
-              <a href="#" class="card-link text-warning">Another link</a>
-            </div>
           </div>
 
           <div class="card col p-4 text-center m-auto" style="width: 8rem;">
@@ -246,10 +579,6 @@
               <li class="list-group-item">A second item</li>
               <li class="list-group-item">A third item</li>
             </ul>
-            <div class="card-body">
-              <a href="#" class="card-link text-warning">Card link</a>
-              <a href="#" class="card-link text-warning">Another link</a>
-            </div>
           </div>
         </div>    
       <!-- fin de card con 2 imagenes -->
@@ -297,6 +626,7 @@
           </div>
 
           <!-- form  -->
+          <span id="formulario"></span>
           <div class="card p-5">
             <form>
               <div class="col mb-3">
@@ -307,7 +637,7 @@
                 <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
               </div>
-              <button type="submit" class="btn btn-warning mt-5">Submit</button>
+              <button type="submit" class="btn btn-warning mt-5">Enviar</button>
             </form>
           </div>
            <!-- final -->
