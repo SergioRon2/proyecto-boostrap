@@ -39,3 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+
+// el error actual es que el resultado de la busqueda es todo el catalogo respecto el indice 
